@@ -3,6 +3,7 @@ package ds;
 public class QuickSort {
 
 	public static void main(String[] args) {
+		//Added Comments:
 		//Intution: Divide and Conquer
 		//Array A, pivot x- first element, place the first elemnet in the right position of sorting order
 		// make recusive call of the same. at last merge the arrays.
