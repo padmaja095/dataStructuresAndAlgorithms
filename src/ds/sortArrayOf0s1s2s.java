@@ -1,19 +1,23 @@
 package ds;
 
+import java.util.Arrays;
+
 public class sortArrayOf0s1s2s {
 	// Problem statement: Sort array of 0's 1's 2's
 	// Two ways to solve with O(n) .
 	// 1. two times parsing the array.
 	// 2. one time parsing the array
 	public static void main(String args[]) {
-		int arr[] = {  0, 1, 0, 1, 2, 0, 0, 1, 2 };
+	     int arr[] = {  0, 1, 0, 1, 2, 0, 0, 1, 2 };
 		printArray(arr);
 		//twoParsingToSortArray(arr);
 		oneParsingToSortArray(arr);
 		printArray(arr);
 
+
 	}
 
+	 
 	private static void oneParsingToSortArray(int[] arr) {
 		int C=0,L=0;
 		int H=arr.length-1;
