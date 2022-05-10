@@ -7,7 +7,7 @@ import ds.MergeSort;
 public class wiggleSort {
 
 	public static void main(String[] args) {
-		int arr[] = { 3, 5, 2, 1, 6, 0 };
+		int arr[] = { 3, 5, 2, 1, 6, 0};
 		System.out.println("Given Array");
 		printArray(arr);
 		wiggleSort ws = new wiggleSort();

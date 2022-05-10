@@ -19,10 +19,11 @@ public class QuickSort {
 	}
 	public void quicksort(int arr[],int p,int r)
 	{// p-1st lement, r- rear elemnt
+		System.out.println(p+""+r);
 		if(p<r)
 		{
 			int q=partition(arr,p,r);
-			//printArray(arr);
+			printArray(arr);
 			quicksort(arr, p, q-1);
 			quicksort(arr, q+1, r);
 			
