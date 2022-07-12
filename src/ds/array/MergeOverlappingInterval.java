@@ -7,7 +7,7 @@ import java.util.Stack;
 public class MergeOverlappingInterval {
     // Q: given two dimensiona array of intervals start and end. find the overapping
     // intervals
-    // approach: sor the start of all intervals and using stack merge the
+    // approach: sort the start of all intervals and using stack merge the
     // overlapping intervals one by one in O(n) times.
     public static void main(String[] args) {
         Interval arr[] = new Interval[4];
