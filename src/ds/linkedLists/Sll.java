@@ -7,7 +7,7 @@ import java.io.*;
 // Deletion at the first -O(1)
 // Deletion with a key - O(n)
 //Traversal and Search - O(n)
-public class LinkedListSll {
+public class Sll {
     Node head; // head of list
 
     // Linked list Node.
@@ -22,7 +22,7 @@ public class LinkedListSll {
         }
     }
     // Method to insert a new node at the begining
-    public static LinkedListSll insert_at_begining(LinkedListSll list, int data) {
+    public static Sll insert_at_begining(Sll list, int data) {
         // Create a new node with given data
         Node new_node = new Node(data);
         if (list.head == null) {
@@ -34,7 +34,7 @@ public class LinkedListSll {
         return list;
     }
     // Method to insert a new node at the end
-    public static LinkedListSll insert_at_end(LinkedListSll list, int data) {
+    public static Sll insert_at_end(Sll list, int data) {
         Node new_node = new Node(data);
         if (list.head == null) {
             list.head = new_node;
@@ -48,7 +48,7 @@ public class LinkedListSll {
         return list;
     }
     // Method to insert a new node at the middle position with data
-    public static LinkedListSll insert_in_the_middle(LinkedListSll list, int data, int positionData) {
+    public static Sll insert_in_the_middle(Sll list, int data, int positionData) {
         Node new_node = new Node(data);
         if (list.head == null) {
             list.head = new_node;
@@ -63,7 +63,7 @@ public class LinkedListSll {
         }
         return list;
     }
-    public static LinkedListSll delete_node(LinkedListSll list, int data) {
+    public static Sll delete_node(Sll list, int data) {
         Node deleteNode = list.head;
         Node prev = null;
         if (list.head == null) {
@@ -86,7 +86,7 @@ public class LinkedListSll {
     }
 
     // Method to print the LinkedList.
-    public static void printList(LinkedListSll list) {
+    public static void printList(Sll list) {
         Node currNode = list.head;
         System.out.print("LinkedList: ");
         // Traverse through the LinkedList
@@ -96,7 +96,7 @@ public class LinkedListSll {
             currNode = currNode.next;
         }
     }
-    public static void count(LinkedListSll list) {
+    public static void count(Sll list) {
         Node currNode = list.head;
         System.out.print("LinkedList: ");
         // Traverse through the LinkedList
@@ -111,7 +111,7 @@ public class LinkedListSll {
     // Driver code
     public static void main(String[] args) {
         /* Start with the empty list. */
-        LinkedListSll list = new LinkedListSll();
+        Sll list = new Sll();
         insert_at_begining(list, 1);
         insert_at_begining(list, 2);
         insert_at_begining(list, 3);
