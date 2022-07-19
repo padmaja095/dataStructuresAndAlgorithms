@@ -108,7 +108,6 @@ public class Sll {
         System.out.println("Total Element is : "+count);
     }
 
-    // Driver code
     public static void main(String[] args) {
         /* Start with the empty list. */
         Sll list = new Sll();

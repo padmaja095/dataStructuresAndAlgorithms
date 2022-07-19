@@ -8,7 +8,7 @@ import java.net.http.HttpHeaders;
 // Deletion at the first -O(1)
 // Deletion with a key - O(n)
 //Traversal and Search - O(n)
-public class dLL {
+public class Dll {
     Node head;
 
     static class Node {
@@ -25,7 +25,7 @@ public class dLL {
 
     public static void main(String args[]) {
         /* Start with the empty list. */
-        dLL list = new dLL();
+        Dll list = new Dll();
         insert_at_begining(list, 1);
         insert_at_begining(list, 2);
         insert_at_begining(list, 3);
@@ -42,7 +42,7 @@ public class dLL {
 
     }
 
-    private static void printList(dLL list) {
+    private static void printList(Dll list) {
         if (list.head != null) {
             Node currNode = list.head;
             System.out.print("LinkedList: ");
@@ -53,7 +53,7 @@ public class dLL {
         }
     }
 
-    private static void count(dLL list) {
+    private static void count(Dll list) {
 
         if (list.head != null) {
             int counter = 1;
@@ -67,7 +67,7 @@ public class dLL {
 
     }
 
-    private static void delete_node(dLL list, int i) {
+    private static void delete_node(Dll list, int i) {
         if (list.head == null) {
             System.out.println("List is null. Nothing to delete here");
         } else if (list.head.data == i) {
@@ -89,7 +89,7 @@ public class dLL {
         }
     }
 
-    private static void insert_in_the_middle(dLL list, int data, int positionData) {
+    private static void insert_in_the_middle(Dll list, int data, int positionData) {
         // insert in the middle: before the given positionData
         Node new_node = new Node(data);
         if (list.head == null) {
@@ -107,7 +107,7 @@ public class dLL {
 
     }
 
-    private static void insert_at_end(dLL list, int data) {
+    private static void insert_at_end(Dll list, int data) {
         Node new_node = new Node(data);
         if (list.head == null) {
             list.head = new_node;
@@ -123,7 +123,7 @@ public class dLL {
 
     }
 
-    private static void insert_at_begining(dLL list, int data) {
+    private static void insert_at_begining(Dll list, int data) {
         Node new_node = new Node(data);
         if (list.head == null) {
             list.head = new_node;
