@@ -10,6 +10,7 @@ public class CircularSll {
     static class Node {
         int data;
         Node next;
+
         Node(int d) {
             data = d;
             next = null;
@@ -69,8 +70,7 @@ public class CircularSll {
         Node prev = list.last;
         if (list.last == null) {
             System.out.println("Linked list is empty");
-        } 
-        else if (list.last.data == data) {
+        } else if (list.last.data == data) {
             while (currNode != list.last) {
                 prev = currNode;
                 currNode = currNode.next;
