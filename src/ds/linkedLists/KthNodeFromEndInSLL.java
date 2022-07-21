@@ -35,7 +35,7 @@ public class KthNodeFromEndInSLL {
         kthNodeFromEndInSLL.push(31);
         kthNodeFromEndInSLL.push(33);
         kthNodeFromEndInSLL.printList(kthNodeFromEndInSLL);
-        kthNodeFromEndInSLL.findKthNodeFromEndInSLL(kthNodeFromEndInSLL, 8);
+        kthNodeFromEndInSLL.findKthNodeFromEndInSLL(kthNodeFromEndInSLL, 4);
     }
 
     // approach 2

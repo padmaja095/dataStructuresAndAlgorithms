@@ -1,8 +1,9 @@
 package ds.linkedLists;
 
-import javax.swing.ToolTipManager;
+import java.util.HashSet;
 
-public class DetectLoopInLinkedlist {
+public class DetectLoopInLikedlistUsinhHashing {
+    
     Node head;
 
     static class Node {
@@ -15,7 +16,7 @@ public class DetectLoopInLinkedlist {
         }
     }
 
-    public static DetectLoopInLinkedlist insert_at_end(DetectLoopInLinkedlist list, int data) {
+    public static DetectLoopInLikedlistUsinhHashing insert_at_end(DetectLoopInLikedlistUsinhHashing list, int data) {
         Node new_node = new Node(data);
         if (list.head == null) {
             list.head = new_node;
@@ -30,33 +31,34 @@ public class DetectLoopInLinkedlist {
     }
 
     public static void main(String args[]) {
-        DetectLoopInLinkedlist detectLoopInLinkedlist = new DetectLoopInLinkedlist();
+        DetectLoopInLikedlistUsinhHashing detectLoopInLinkedlist = new DetectLoopInLikedlistUsinhHashing();
         insert_at_end(detectLoopInLinkedlist, 1);
         insert_at_end(detectLoopInLinkedlist, 2);
         insert_at_end(detectLoopInLinkedlist, 3);
         insert_at_end(detectLoopInLinkedlist, 4);
         printList(detectLoopInLinkedlist);
+        //to create a loop
         detectLoopInLinkedlist.head.next.next = detectLoopInLinkedlist.head;
         detectLoopInLinkedlist.detectloop(detectLoopInLinkedlist);
     }
 
-    private void detectloop(DetectLoopInLinkedlist detectLoopInLinkedlist) {
-        Node hare = detectLoopInLinkedlist.head;
-        Node tortoise = detectLoopInLinkedlist.head;
-        int flag = 1;
-        while (tortoise != null && hare != null && hare.next != null) {
-            hare = hare.next.next;
-            tortoise = tortoise.next;
-            if (hare == tortoise) {
-                flag = 1;
-                System.out.println("Loop Found in the List ");
-                return;
-              }
+    private void detectloop(DetectLoopInLikedlistUsinhHashing detectLoopInLinkedlist) {
+       HashSet<Node> checkLoopSet= new HashSet<Node>();
+       Node currNode=detectLoopInLinkedlist.head;
+       while(currNode!=null)
+       {
+        if(checkLoopSet.contains(currNode))
+        {
+            System.out.println("There exists a loop");
+            return;
         }
+        checkLoopSet.add(currNode);
+        currNode=currNode.next;
+       }
         System.out.println("No loop Found in the list");
     }
 
-    public static void printList(DetectLoopInLinkedlist list) {
+    public static void printList(DetectLoopInLikedlistUsinhHashing list) {
         Node currNode = list.head;
         System.out.print("LinkedList: ");
         // Traverse through the LinkedList
@@ -66,4 +68,5 @@ public class DetectLoopInLinkedlist {
             currNode = currNode.next;
         }
     }
+    
 }
