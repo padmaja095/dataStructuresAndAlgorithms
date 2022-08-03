@@ -13,8 +13,8 @@ public class RotateArray {
         int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
         RotateArray fmp = new RotateArray();
         // fmp.firstApproachRotateArray(arr,3);
-       // fmp.secondApproachRotateArray(arr, 4);
-       printArray(fmp.thirdApproachRotateArray(arr, 3));
+        fmp.secondApproachRotateArray(arr, 4);
+      // printArray(fmp.thirdApproachRotateArray(arr, 3));
 
     }
 

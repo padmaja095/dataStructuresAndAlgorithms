@@ -61,7 +61,7 @@ public class DetectLoopInLikedlistUsinhHashing {
     public static void printList(DetectLoopInLikedlistUsinhHashing list) {
         Node currNode = list.head;
         System.out.print("LinkedList: ");
-        // Traverse through the LinkedList
+        // Traverse through the LinkedList 
         while (currNode != null) {
             System.out.print(currNode.data + " ");
             // Go to next node
