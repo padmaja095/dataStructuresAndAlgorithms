@@ -43,12 +43,11 @@ public class DetectLoopInLinkedlist {
     private void detectloop(DetectLoopInLinkedlist detectLoopInLinkedlist) {
         Node hare = detectLoopInLinkedlist.head;
         Node tortoise = detectLoopInLinkedlist.head;
-        int flag = 1;
         while (tortoise != null && hare != null && hare.next != null) {
             hare = hare.next.next;
             tortoise = tortoise.next;
             if (hare == tortoise) {
-                flag = 1;
+                
                 System.out.println("Loop Found in the List ");
                 return;
               }

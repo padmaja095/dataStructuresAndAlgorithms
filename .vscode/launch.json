@@ -1,0 +1,315 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch IntersectionOfSll",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.IntersectionOfSll",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingSort",
+            "request": "launch",
+            "mainClass": "ds.CountingSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "ds.InsertionSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "ds.MergeSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "ds.QuickSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch RadixSort",
+            "request": "launch",
+            "mainClass": "ds.RadixSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "ds.SelectionSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayProductProblem",
+            "request": "launch",
+            "mainClass": "ds.array.ArrayProductProblem",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch DutchNationalFlagProblem",
+            "request": "launch",
+            "mainClass": "ds.array.DutchNationalFlagProblem",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIndTwoMissingNumber",
+            "request": "launch",
+            "mainClass": "ds.array.FIndTwoMissingNumber",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLeadersInArray",
+            "request": "launch",
+            "mainClass": "ds.array.FindLeadersInArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMajorityElement",
+            "request": "launch",
+            "mainClass": "ds.array.FindMajorityElement",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMissingNumber",
+            "request": "launch",
+            "mainClass": "ds.array.FindMissingNumber",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindTwoRepeatingElementsInArray",
+            "request": "launch",
+            "mainClass": "ds.array.FindTwoRepeatingElementsInArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch InversionOfarrays",
+            "request": "launch",
+            "mainClass": "ds.array.InversionOfarrays",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeOverlappingInterval",
+            "request": "launch",
+            "mainClass": "ds.array.MergeOverlappingInterval",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch PartitionEqualSubsetSum",
+            "request": "launch",
+            "mainClass": "ds.array.PartitionEqualSubsetSum",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceElements",
+            "request": "launch",
+            "mainClass": "ds.array.ReplaceElements",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "ds.array.RotateArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArrayTo90Degree",
+            "request": "launch",
+            "mainClass": "ds.array.RotateArrayTo90Degree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "ds.array.SingleNumber",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmallerThanCurrentNumber",
+            "request": "launch",
+            "mainClass": "ds.array.SmallerThanCurrentNumber",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortArrayByParity",
+            "request": "launch",
+            "mainClass": "ds.array.SortArrayByParity",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedRotatedArray",
+            "request": "launch",
+            "mainClass": "ds.array.SortedRotatedArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedTripletsInArray",
+            "request": "launch",
+            "mainClass": "ds.array.SortedTripletsInArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "ds.array.ThreeSum",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularDll",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.CircularDll",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularSll",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.CircularSll",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch DetectLoopInLikedlistUsinhHashing",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.DetectLoopInLikedlistUsinhHashing",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch DetectLoopInLinkedlist",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.DetectLoopInLinkedlist",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dll",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.Dll",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthNodeFromEndInSLL",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.KthNodeFromEndInSLL",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeOrNot",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.PalindromeOrNot",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeUsingRecursion",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.PalindromeUsingRecursion",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveNthNodeFromEndOfLinkedlist",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.RemoveNthNodeFromEndOfLinkedlist",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sll",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.Sll",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapKthAndKminus1thNodeInLikedlist",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.SwapKthAndKminus1thNodeInLikedlist",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch isPowerOfTwo",
+            "request": "launch",
+            "mainClass": "ds.recursion.isPowerOfTwo",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch findKSmallestElement",
+            "request": "launch",
+            "mainClass": "ds.sorting.findKSmallestElement",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch smallerNumbersThanCurrent",
+            "request": "launch",
+            "mainClass": "ds.sorting.smallerNumbersThanCurrent",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortArrayOf0s1s2s",
+            "request": "launch",
+            "mainClass": "ds.sorting.sortArrayOf0s1s2s",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortSentence",
+            "request": "launch",
+            "mainClass": "ds.sorting.sortSentence",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch wiggleSort",
+            "request": "launch",
+            "mainClass": "ds.sorting.wiggleSort",
+            "projectName": "datastructure-and-algorithms"
+        }
+    ]
+}
