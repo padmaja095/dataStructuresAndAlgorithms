@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindIntersectionUsingHashing",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.FindIntersectionUsingHashing",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch IntersectionOfSll",
             "request": "launch",
             "mainClass": "ds.linkedLists.IntersectionOfSll",
