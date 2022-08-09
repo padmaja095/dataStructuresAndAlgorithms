@@ -61,8 +61,11 @@ public class CloneListWithRandomPointer {
         headNode=list.head;
         while(headNode!=null)
         {
-            headNode.next.prev=headNode.prev.next;
-            headNode=headNode.next.next;
+            // to check the null condition of cuurnode prev pointer points
+            headNode.next.prev=headNode.prev!=null?headNode.prev.next:headNode.prev;
+            //this null check not needed anyway bcoz.this is needed in odd no.of elements. 
+            //but as we are adding dummy . odd*2 or even*2 is always even
+            headNode=headNode.next!=null?headNode.next.next:headNode.next;
         }
         // spliting the orginal and the new cloned output list
         headNode=list.head;
