@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CloneListWithRandomPointer",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.CloneListWithRandomPointer",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch sample",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.sample",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SplitKConsecutiveLinkedList",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.SplitKConsecutiveLinkedList",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatingSplitsUsingRecursion",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.AlternatingSplitsUsingRecursion",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.main",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatingSplitInSll",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.AlternatingSplitInSll",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch FindIntersectionUsingHashing",
             "request": "launch",
             "mainClass": "ds.linkedLists.FindIntersectionUsingHashing",
