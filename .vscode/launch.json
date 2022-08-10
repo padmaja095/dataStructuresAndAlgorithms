@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.AddTwoNumbers",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch CloneListWithRandomPointer",
             "request": "launch",
             "mainClass": "ds.linkedLists.CloneListWithRandomPointer",
