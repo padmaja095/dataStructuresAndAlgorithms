@@ -13,7 +13,6 @@ public class AddTwoNumbers {
         }
     }
     public static void main(String args[]) {
-        AddTwoNumbers list = new AddTwoNumbers();
         Node first = null;
         first = push(first, 4);
         first = push(first, 8);
@@ -38,7 +37,6 @@ public class AddTwoNumbers {
             }
         }
     }
-
     private static Node addLists(Node first, Node second) {
         Node outputHead = null;
         int sum = 0;
