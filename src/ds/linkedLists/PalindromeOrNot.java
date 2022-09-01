@@ -11,7 +11,7 @@ public class PalindromeOrNot {
     //.so now last element will be in the top and so on. now, 
     //again from first pop the elements from the stack and match it with current element. if both are equal then it is palindrome.
     // this takes O(n) times and O(n) space due to stack.
-    //approach 2: With using any data structure, 
+    //approach 2: Without using any data structure, 
     //step 1: go to middle element using slow and fast pointer method.
     //step 2: two cases. the no of elements are odd or even. after the middle element reverse the second half and consider it as another list.
     //step 3: compare the two list of elements to find the palindrome . and atlast reverse back the list and attach it to the same list.

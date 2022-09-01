@@ -47,7 +47,6 @@ public class AlternatingSplitInSll {
             }
             currNode = currNode.next;
         }
-        printList(alternatingSplitInSll);
         printList(newListA);
         printList(newListB);
     }

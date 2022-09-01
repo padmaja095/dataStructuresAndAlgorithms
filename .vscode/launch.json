@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.MergeSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedlinkedlistAndFlatten",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.MergeSortedlinkedlistAndFlatten",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatingSplitsUsingPtrs",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.AlternatingSplitsUsingPtrs",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedKLinkedList",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.MergeSortedKLinkedList",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLinkedListUsinhRecursion",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.MergeTwoSortedLinkedListUsinhRecursion",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLinkedlist",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.MergeTwoSortedLinkedlist",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindFirstMissingPositiveInteger",
+            "request": "launch",
+            "mainClass": "ds.array.FindFirstMissingPositiveInteger",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDuplicateNumber",
+            "request": "launch",
+            "mainClass": "ds.array.FindDuplicateNumber",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseAlternativeKNodes",
             "request": "launch",
             "mainClass": "ds.linkedLists.ReverseAlternativeKNodes",
