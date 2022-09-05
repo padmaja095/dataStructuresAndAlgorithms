@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindUnionAndIntersectionUsingHashing",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.FindUnionAndIntersectionUsingHashing",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindUnionAndIntersection",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.FindUnionAndIntersection",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedianOfTwoSortedArray",
+            "request": "launch",
+            "mainClass": "ds.array.FindMedianOfTwoSortedArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeSort",
             "request": "launch",
             "mainClass": "ds.linkedLists.MergeSort",
