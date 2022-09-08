@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StackImplementationUsingArrays",
+            "request": "launch",
+            "mainClass": "ds.stacks.StackImplementationUsingArrays",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch FindUnionAndIntersectionUsingHashing",
             "request": "launch",
             "mainClass": "ds.linkedLists.FindUnionAndIntersectionUsingHashing",

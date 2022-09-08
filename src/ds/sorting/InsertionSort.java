@@ -1,4 +1,4 @@
-package ds;
+package ds.sorting;
 
 public class InsertionSort {
 	public static void main(String[] args) throws Exception {

@@ -1,7 +1,5 @@
 package ds.sorting;
 
-import ds.QuickSort;
-
 public class findKSmallestElement// Also know as Quick-select algorithm
 {
 

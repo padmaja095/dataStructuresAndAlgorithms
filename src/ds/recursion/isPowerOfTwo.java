@@ -1,6 +1,6 @@
 package ds.recursion;
 
-import ds.MergeSort;
+import ds.sorting.MergeSort;
 
 public class isPowerOfTwo {
 

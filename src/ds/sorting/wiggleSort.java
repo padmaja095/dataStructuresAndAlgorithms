@@ -2,8 +2,6 @@ package ds.sorting;
 
 import java.util.Arrays;
 
-import ds.MergeSort;
-
 public class wiggleSort {
 
 	public static void main(String[] args) {
