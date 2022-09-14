@@ -62,10 +62,13 @@ public class ReverseAlternativeKNodes {
         }
         //recursively calling the kalternate Method to do the same.
         // return (prev) of this method is first of k nodes. current.next which is (123456) 6 should be connected with 9 [(789) reversed(987)]
+        System.out.println(prev.data);
+        System.out.println(current.data);
         if(current!=null)
         {
             current.next=kAlternateNodes(current.next, k);
         }
+        System.out.println(prev.data);
         // parent method call prev contains first node which is head (3).
         return prev;
 

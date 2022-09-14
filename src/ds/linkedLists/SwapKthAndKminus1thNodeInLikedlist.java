@@ -34,6 +34,8 @@ public class SwapKthAndKminus1thNodeInLikedlist {
         insert_at_end(swapKthAndKminus1thNodeInLikedlist, 3);
         insert_at_end(swapKthAndKminus1thNodeInLikedlist, 4);
         insert_at_end(swapKthAndKminus1thNodeInLikedlist, 5);
+        insert_at_end(swapKthAndKminus1thNodeInLikedlist, 6);
+        insert_at_end(swapKthAndKminus1thNodeInLikedlist, 7);
         printList(swapKthAndKminus1thNodeInLikedlist);
         swapKthAndKminus1thNodeInLikedlist.swapKthAndKminus1thElement(swapKthAndKminus1thNodeInLikedlist,3);
         printList(swapKthAndKminus1thNodeInLikedlist);

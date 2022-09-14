@@ -1,7 +1,7 @@
 package ds.linkedLists;
 
 public class ReverseLinkedlistFromMtoNNodes {
-     Node head;
+    Node head;
 
     static class Node {
         Node next;
@@ -12,6 +12,7 @@ public class ReverseLinkedlistFromMtoNNodes {
 
         }
     }
+
     public static void main(String args[]) {
         ReverseLinkedlistFromMtoNNodes reverseAlternativeKNodes = new ReverseLinkedlistFromMtoNNodes();
         insert_at_end(reverseAlternativeKNodes, 1);
@@ -20,15 +21,48 @@ public class ReverseLinkedlistFromMtoNNodes {
         insert_at_end(reverseAlternativeKNodes, 4);
         insert_at_end(reverseAlternativeKNodes, 5);
         insert_at_end(reverseAlternativeKNodes, 6);
-         
         reverseAlternativeKNodes.printList(reverseAlternativeKNodes.head);
-         reverseAlternativeKNodes.reverseFromMtoNnode(reverseAlternativeKNodes.head, 3,5);
-         reverseAlternativeKNodes.printList(reverseAlternativeKNodes.head);
+        Node node = reverseAlternativeKNodes.reverseFromMtoNnode(reverseAlternativeKNodes.head, 1, 4);
+        reverseAlternativeKNodes.printList(node);
     }
-    private void reverseFromMtoNnode(Node head2, int m, int n) {
+    private Node reverseFromMtoNnode(Node headNode, int m, int n) {
+        int k = n - m + 1;
+        Node current = headNode;
+        Node previous = null;
+        for (int i = 0; i < m - 1; i++) {
+            if (current.next != null) {
+                previous = current;
+                current = current.next;
+            } else {
+                System.out.println("The Given M is incorrect: M is larger than list size");
+            }
+        }
+        Node curr = current;
+        Node nxt;
+        Node prev = null;
+        int count = 0;
+        while (curr != null && count < k) {
+            nxt = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nxt;
+            count++;
+        }
+        if (m == 1) {
+            // Incase of reversing needs includes headnode
+            headNode = prev;
+            current.next = curr;
+            return headNode;
+        }
+        if (previous != null) {
+            previous.next = prev;
+        }
+        if (current != null) {
+            current.next = curr;
+        }
+        return headNode;
+    }
 
-        
-    }
     public static void printList(Node node) {
         // Node currNode = list.head;
         System.out.print("LinkedList: ");

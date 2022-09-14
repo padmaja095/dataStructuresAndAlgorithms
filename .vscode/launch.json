@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseLinkedlistFromMtoNNodes",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.ReverseLinkedlistFromMtoNNodes",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapNodesInPairs",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.SwapNodesInPairs",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch InfixToPrefix",
+            "request": "launch",
+            "mainClass": "ds.stacks.InfixToPrefix",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch InfixToPostfix",
+            "request": "launch",
+            "mainClass": "ds.stacks.InfixToPostfix",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParanthesisCheck",
+            "request": "launch",
+            "mainClass": "ds.stacks.ParanthesisCheck",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch StackImplementationUsingLinkedList",
             "request": "launch",
             "mainClass": "ds.stacks.StackImplementationUsingLinkedList",
