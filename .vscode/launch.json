@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EvaluationOfPrefix",
+            "request": "launch",
+            "mainClass": "ds.stacks.EvaluationOfPrefix",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvaluationOfPostfix",
+            "request": "launch",
+            "mainClass": "ds.stacks.EvaluationOfPostfix",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseLinkedlistFromMtoNNodes",
             "request": "launch",
             "mainClass": "ds.linkedLists.ReverseLinkedlistFromMtoNNodes",
