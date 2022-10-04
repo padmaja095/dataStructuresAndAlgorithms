@@ -12,7 +12,7 @@ public class EvaluationOfPostfix {
     // once expression is fully evaluated, pop the element from stack. that is the
     // result.
     public static void main(String args[]) {
-        String expr = "234*6*+";
+        String expr = "234*6*+"; 
         int res = evaluationOfPostfix(expr);
         System.out.println(res);
     }

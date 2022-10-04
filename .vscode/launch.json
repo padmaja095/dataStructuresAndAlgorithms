@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ImplementingQueueUsinglinkedList",
+            "request": "launch",
+            "mainClass": "ds.Queue.ImplementingQueueUsinglinkedList",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplementingQueueUsingArray",
+            "request": "launch",
+            "mainClass": "ds.Queue.ImplementingQueueUsingArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindNextGreaterNode",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.FindNextGreaterNode",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch EvaluationOfPrefix",
             "request": "launch",
             "mainClass": "ds.stacks.EvaluationOfPrefix",
