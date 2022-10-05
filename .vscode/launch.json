@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RemoveDuplicatesFeomSortedList",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.RemoveDuplicatesFeomSortedList",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateListKTimes",
+            "request": "launch",
+            "mainClass": "ds.linkedLists.RotateListKTimes",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch ImplementingQueueUsinglinkedList",
             "request": "launch",
             "mainClass": "ds.Queue.ImplementingQueueUsinglinkedList",
