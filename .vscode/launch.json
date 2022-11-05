@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaximumDepthOfBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.MaximumDepthOfBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountNodesInBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.CountNodesInBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteNodeInBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.DeleteNodeInBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch TraversalsOfBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.TraversalsOfBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperationsInBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.OperationsInBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuildBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.BuildBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockSpanProblem",
+            "request": "launch",
+            "mainClass": "ds.stacks.StockSpanProblem",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch RemoveDuplicatesFeomSortedList",
             "request": "launch",
             "mainClass": "ds.linkedLists.RemoveDuplicatesFeomSortedList",
