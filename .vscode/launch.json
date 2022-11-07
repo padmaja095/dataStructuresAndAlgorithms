@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SpiralOrderOfBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.SpiralOrderOfBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "ds.Tree.LevelOrderTraversal",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch IdenticalBinaryTreesOrNot",
+            "request": "launch",
+            "mainClass": "ds.Tree.IdenticalBinaryTreesOrNot",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindPossibleCombinationsOfPhonedigits",
+            "request": "launch",
+            "mainClass": "ds.recursion.FindPossibleCombinationsOfPhonedigits",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SudokoUsingBacktracking",
+            "request": "launch",
+            "mainClass": "ds.Tree.SudokoUsingBacktracking",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch MaximumDepthOfBinaryTree",
             "request": "launch",
             "mainClass": "ds.Tree.MaximumDepthOfBinaryTree",
