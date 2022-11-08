@@ -57,7 +57,6 @@ public class SpiralOrderOfBinaryTree {
                     stackOdd.push(curr.right);
                 }
             }
-
         }
     }
 

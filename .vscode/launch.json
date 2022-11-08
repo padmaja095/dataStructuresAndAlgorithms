@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LowestCommonAncestorOfBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.LowestCommonAncestorOfBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch AncestorOfNodeInBinaryTre",
+            "request": "launch",
+            "mainClass": "ds.Tree.AncestorOfNodeInBinaryTre",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MirrorOfBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.MirrorOfBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch SpiralOrderOfBinaryTree",
             "request": "launch",
             "mainClass": "ds.Tree.SpiralOrderOfBinaryTree",
