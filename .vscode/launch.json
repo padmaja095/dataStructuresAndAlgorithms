@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChildSumPropertyOfBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.ChildSumPropertyOfBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch LCAOfBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.LCAOfBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch LowestCommonAncestorOfBST",
             "request": "launch",
             "mainClass": "ds.Tree.LowestCommonAncestorOfBST",

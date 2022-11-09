@@ -1,6 +1,6 @@
 package ds.Tree;
 
-public class LowestCommonAncestorOfBST {
+public class LCAOfBinaryTree {
     // using linkedlist
     static class Node {
         int data;
@@ -18,33 +18,38 @@ public class LowestCommonAncestorOfBST {
         Node root = constructBST(arr, n);
         preOrdertraversal(root);
         System.out.println();
-        LCA(root, 28, 21);
-        // Node lca=LCAApproach2(root, 28, 21);
-        // System.out.println(lca.data);
-    }
+        Node lca = LCA(root, 4, 15);
+        System.out.println("LCS:" + lca.data);
 
-    private static void LCA(Node root, int node1, int node2) {
-        if (root == null) {
-            return;
-        }
-        if ((node1 <= root.data) && (node2 >= root.data) || (node2 <= root.data) && (node1 >= root.data)) {
-            System.out.println("LCA" + root.data);
-            return;
-        }
-        LCA(root.left, node1, node2);
-        LCA(root.right, node1, node2);
     }
-    private static Node LCAApproach2(Node root, int node1, int node2) {
+    private static Node LCA(Node root, int node1, int node2) {
         if (root == null) {
             return null;
         }
-        if (root.data > Math.max(node1, node2)) {
-            return LCAApproach2(root.left, node1, node2);
-        } else if (root.data < Math.min(node1, node2)) {
-            return LCAApproach2(root.right, node1, node2);
+        if (root.data == node1 || root.data == node2) {
+            return root;
         }
-        return root;
+        Node leftSearch = LCA(root.left, node1, node2);
+        Node rightSearch = LCA(root.right, node1, node2);
+        if (leftSearch == null) {
+            return rightSearch;
+        }
+        if (rightSearch == null) {
+            return leftSearch;
+        }
+        // below case is when
+        // 1
+        // / \
+        // 2 2 when lca(2,3)-> 1. which is incorrect,
+        // if condition to check incase of returning root. either node1 and node2 should
+        // have both the values. and not the same.
+        if ((leftSearch.data == node1 && rightSearch.data == node2)
+                || (leftSearch.data == node2 && rightSearch.data == node1)) {
+            return root;
+        }
+        return null;
     }
+
     private static void preOrdertraversal(Node root) {
         if (root == null) {
             return;
@@ -54,6 +59,7 @@ public class LowestCommonAncestorOfBST {
             preOrdertraversal(root.right);
         }
     }
+
     private static Node constructBST(int[] arr, int n) {
         Node root = null;
         for (int i = 0; i < n; i++) {
