@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RangeSumOfBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.RangeSumOfBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch RangeSumOfBT",
+            "request": "launch",
+            "mainClass": "ds.Tree.RangeSumOfBT",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoBinaryTrees",
+            "request": "launch",
+            "mainClass": "ds.Tree.MergeTwoBinaryTrees",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoundaryTraversal",
+            "request": "launch",
+            "mainClass": "ds.Tree.BoundaryTraversal",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MorrisInorderTraversal",
+            "request": "launch",
+            "mainClass": "ds.Tree.MorrisInorderTraversal",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerticalTraversalOfBT",
+            "request": "launch",
+            "mainClass": "ds.Tree.VerticalTraversalOfBT",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertBTtoDLL",
+            "request": "launch",
+            "mainClass": "ds.Tree.ConvertBTtoDLL",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiameterOfBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.DiameterOfBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSumFromRootToLraf",
+            "request": "launch",
+            "mainClass": "ds.Tree.MaxSumFromRootToLraf",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructSumTreeOfBT",
+            "request": "launch",
+            "mainClass": "ds.Tree.ConstructSumTreeOfBT",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructBTFromInorderAndPostOrderTraversals",
+            "request": "launch",
+            "mainClass": "ds.Tree.ConstructBTFromInorderAndPostOrderTraversals",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch ChildSumPropertyOfBinaryTree",
             "request": "launch",
             "mainClass": "ds.Tree.ChildSumPropertyOfBinaryTree",
