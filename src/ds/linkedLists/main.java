@@ -1,19 +1,25 @@
 package ds.linkedLists;
 
 public class main {
-    //In Java, all primitives like int, char, etc are similar to C/C++, 
-    //but all non-primitives (or objects of any class) are always references.
-    // So it gets tricky when we pass object references to methods.
-    // Java creates a copy of references and pass it to method, but they still point to same memory reference.
-    // Mean if set some other reference to object passed inside method, the object from calling method as well its reference will remain unaffected. 
-    //The changes are not reflected back if we change the object itself to refer some other location or object
-        // swap() doesn't swap i and j
+        //pass by value or reference
+        //mutable or immutable
+        //java is strictly pass by value.
+        // primitive types like int,char,float are stored in stack and are passed by value as parameters
+        // and they point to differnt memory locations in stack. so changing the primitive values in differnt method, doesnot affect the original.
+        //In case of objects like wrappers like Integer or arraylist,Stack. Java doesnot pass objects but it passed object references.
+        // normally obects are stored in heap.when passing them in parameters, new memory is created but they point to same locations. 
+        //so on changing one value of object it reflects in orginal method.
+        // This particluar example, Integer though it is object , why after going to swap method it doesnot changes in original method,
+        // because Integer,String are immutable -> meaning once the value is set it cannot be changed.
+        //but if objects like arraylist, Stack, StringBuilder are mutable classes -> so changing them in another method will reflect in original method as well.
+        
         public static void swap(Integer i, Integer j)
         {
-           Integer temp = new Integer(i);
-           i = j;
+          // Integer temp=Integer.valueOf(i);
+           // = new Integer(i);
+          i=i.valueOf(1+1);
            System.out.println(i);
-           j = temp;
+           j =j+1;
            System.out.println(j);
         }
         public static void main(String[] args)

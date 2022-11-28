@@ -36,6 +36,7 @@ public class StackImplementationUsingArrays {
         if (!isStackFull(s)) {
             System.out.println("Inserting element in stack");
             s.arr[++s.top] = ele;
+            //top is also incremented in the above case
         } else {
             System.out.println("OverFlow\nProgram Terminated\n");
         }

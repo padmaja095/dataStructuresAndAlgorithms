@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReversingStack",
+            "request": "launch",
+            "mainClass": "ds.stacks.ReversingStack",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch CelebrityProblem",
+            "request": "launch",
+            "mainClass": "ds.stacks.CelebrityProblem",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuildHeap",
+            "request": "launch",
+            "mainClass": "Heap.BuildHeap",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumofAllLeftNodes",
+            "request": "launch",
+            "mainClass": "ds.Tree.SumofAllLeftNodes",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.InvertBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintRightViewOfBT",
+            "request": "launch",
+            "mainClass": "ds.Tree.PrintRightViewOfBT",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchBST",
+            "request": "launch",
+            "mainClass": "ds.Tree.SearchBST",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch RangeSumOfBST",
             "request": "launch",
             "mainClass": "ds.Tree.RangeSumOfBST",
