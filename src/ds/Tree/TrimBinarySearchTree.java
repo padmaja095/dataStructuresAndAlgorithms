@@ -21,13 +21,13 @@ public class TrimBinarySearchTree {
         TrimBinarySearchTree tree = new TrimBinarySearchTree();
         /*
          * Construct the following binary tree
-         * 1
+         * 10
          * / \
-         * 2 3
-         * / \ \
-         * 4 5 8
-         * / \
-         * 7 9
+         * 7  20
+         * / \ / \
+         * 4 8 15 30
+         *  
+         * 
          */
         tree.root = new Node(10);
         tree.root.left = new Node(7);

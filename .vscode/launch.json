@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PathSum",
+            "request": "launch",
+            "mainClass": "ds.Tree.PathSum",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplementTwoStacksInArray",
+            "request": "launch",
+            "mainClass": "ds.stacks.ImplementTwoStacksInArray",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "Heap.HeapSort",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrimBinarySearchTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.TrimBinarySearchTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch ReversingStack",
             "request": "launch",
             "mainClass": "ds.stacks.ReversingStack",
