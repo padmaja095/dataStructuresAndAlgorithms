@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DFS",
+            "request": "launch",
+            "mainClass": "ds.Graph.DFS",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch BFS",
+            "request": "launch",
+            "mainClass": "ds.Graph.BFS",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertToFullBinaryTree",
+            "request": "launch",
+            "mainClass": "ds.Tree.ConvertToFullBinaryTree",
+            "projectName": "datastructure-and-algorithms"
+        },
+        {
+            "type": "java",
             "name": "Launch LeafSimilarTrees",
             "request": "launch",
             "mainClass": "ds.Tree.LeafSimilarTrees",
